@@ -4,6 +4,10 @@ Download and unzip the source repository for this guide, or
 
 clone it using Git: 
 git clone https://github.com/libranswapy/work-distribution-service.git
+
+Maven build 
+mvn clean install
+mvn compile
  
 If you are using Maven, you can run the application using ./mvnw spring-boot:run. Or you can build the JAR file with ./mvnw clean package. Then you can run the JAR file:
 java -jar target/gs-rest-service-0.1.0.jar
